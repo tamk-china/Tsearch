@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <project
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>name.isgodonto</groupId>
-    <artifactId>auth-all</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-  </parent>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.tamk.Tsearch</groupId>
+		<artifactId>Tsearch</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
 
-  <artifactId>auth-biz</artifactId>
-  <name>auth-biz</name>
+	<artifactId>Tsearch-biz</artifactId>
+	<name>Tsearch-biz</name>
 
-  <dependencies>
-    <dependency>
-      <groupId>name.isgodonto</groupId>
-      <artifactId>auth-dal</artifactId>
-    </dependency>
-  </dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>com.tamk.Tsearch</groupId>
+			<artifactId>Tsearch-dal</artifactId>
+		</dependency>
+	</dependencies>
 </project>
